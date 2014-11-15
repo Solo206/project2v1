@@ -1,0 +1,446 @@
+/* global */
+*{
+    padding:0;
+    margin:0;
+    font-family: Verdana, sans-serif;
+}
+
+.education-entry, .work-entry, .online-entry{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+h1 {
+
+  font-size: 50px;
+  color: #F5A623;
+  line-height: 48px;
+  display: inline;
+  font-family: Georgia, sans-serif;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 40px;
+  color: #999999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 30px;
+  color: #000000;
+  line-height: 22px;
+}
+
+h4 {
+  font-style: bold;
+  font-size: 20px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199C3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 35px;
+  color: #F3F3F3;
+  line-height: 50px;
+}
+
+.welcome-label{
+  color:white;
+}
+
+#skillsH3 {
+  color: #F5AE23;
+  display: none;
+  margin-left:-5%;
+  font-size:1.2rem;
+}
+
+ul .skills {
+  width: 80%; 
+  float:left; 
+}
+
+.orange {
+  background-color: #F5AE23;
+}
+
+.orange-text {
+  color: #F5AE23;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.gray {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+/*----------------------------------------------------------------------*/
+/* custom */
+
+/* header section */
+#header {
+  background-color: #484848;
+  padding-bottom:0;
+}
+
+/* name */
+#name{
+  display:block;
+  position:relative;
+  font-size:60px;
+  height:50%;
+}
+
+.nameHolder{
+  display:inline-block;
+  position:relative;
+  height:100%;
+}
+
+.international{
+  display:block;
+}
+
+/* role */
+#role {
+  display:inline-block;
+  position:relative;
+  color:white;
+  font-size: 1.5rem;
+  margin-left:0.5%;
+}
+
+ /* biopic */
+#headerPhoto{
+  display:inline-block;
+  position:relative;
+  height:10%;
+  float:left;
+  border:solid 5px grey;
+
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+/* contact -skills section*/
+#contactSkills{
+  display:inline-block;
+  position:relative;
+  height:10%;
+  padding-left:1%;
+
+}
+
+ /* contact section */
+#topContacts{
+  margin:0;
+  padding-left:0;
+}
+
+#topContacts ul{
+  font-size:1.3rem;
+  display:inline-block;
+}
+
+#topContacts li:not(:first-child){
+  padding-left:100px;
+}
+
+/*skill section*/
+
+.skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+
+}
+
+.skillbar {
+    background-color: #3498db;
+    border: 1px solid white;
+    height: 2.5em;
+    width: 0%;
+}
+
+.skillbar::-webkit-skillbar-bar {
+    background-color: #e0eaf0;
+}
+
+.skillbar::-webkit-skillbar-value {
+    background-color: #329ad1;
+}
+
+.skillbar::-moz-skillbar-bar {
+    background-color: #329ad1;
+}
+
+
+/*project section */
+.project-images {
+  padding:0;
+
+}
+#projects{
+  padding-left:5%;
+  padding-right:5%;
+}
+#projects h2{
+  text-align:center;
+  font-size:50px;
+  padding-top:2%;
+  margin-bottom:2%;
+}
+.project-entry {
+  display:inline-block;
+  position:relative;
+  padding-left:1.5%;
+  padding-right:1.5%;
+}
+.project-entry:hover{
+  background:lightgrey;
+}
+.project-entry .projectImageHold{
+  display:inline-block;
+  position:relative;
+  height:100%;
+  width:500px;
+}
+.projectImageHold li{
+  display:inline-block;
+}
+
+/* work school map section */
+.workSchoolMap{
+  padding-left:5%;
+  padding-right:5%;
+}
+
+/*work school section */
+#work-education{
+  display:inline-block;
+  position:relative;
+  height:80%;
+  min-width:600px;
+  padding-left:5%;
+  padding-right:5%;
+  vertical-align:middle;
+}
+
+/* map wrapper */
+#mapHolder{
+  display:inline-block;
+  position:relative;
+  min-width:600px;
+  height:80%;
+  padding:0;
+  margin:0;
+  vertical-align:middle;
+}
+
+/*map section*/
+#map {
+  display: block;
+  position: relative;
+
+  height: 85%;
+  min-width: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:center;
+}
+
+#mapDiv {
+  display:block;
+  position:relative;
+  height: 500px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+#mapDiv h2{
+  font-size:35px;
+}
+
+/* footer */
+
+footer{
+  background:orange;
+  height:75px;
+}
+
+footer .center-text{
+  display:inline-block;
+  position:relative;
+  margin-top:1%;
+  padding:0;
+  vertical-align:middle;
+}
+
+footer a{
+  display:inline-block;
+}
+
+/* letsConnect and social media section*/
+#letsConnect {
+  text-align: center;
+  height:75px;
+}
+
+.show{
+  display:none;
+  margin-top:-1%;
+}
+
+#letsConnect:hover .hide{
+  display:none;
+}
+
+#letsConnect:hover .show{
+  display:inline-block;
+  background:transparent;
+  height:100%;
+}
+
+.fa-twitter:hover, .fa-google-plus:hover, .fa-github-alt:hover, .fa-linkedin:hover {
+
+/* chrome version */
+
+  -webkit-transform: scale(1.1, 1.1); // This is the enlarged size scale of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+  
+/*  mozilla version  */
+
+  -moz-transform: scale(1.1, 1.1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+    
+  /*  internet explorer */
+  -ms-transform: scale(1.1, 1.1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+
+    color: lightblue;
+}
+
+/* screen size adaption */
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .skills,
+  .biopic {
+    display: block;
+  }
+}
+
+
+
+
